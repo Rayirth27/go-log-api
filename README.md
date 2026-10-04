@@ -120,8 +120,7 @@ go-log-api/
 **Why goroutines over threads?**
 Go's goroutines are lightweight — thousands can run concurrently with minimal 
 memory overhead. Each log line is processed in its own goroutine, results 
-collected through a channel. This mirrors how Swiggy processes millions of 
-concurrent requests without blocking.
+collected through a channel.
 
 **Why bounded worker pool?**
 Unbounded goroutine creation under high load causes memory exhaustion. 

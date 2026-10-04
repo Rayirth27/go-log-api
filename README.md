@@ -133,7 +133,6 @@ Easier to understand the full request lifecycle.
 
 ## Performance
 
-- Processes 10,000 log lines in under 500ms
 - Worker pool bounded at 50 concurrent goroutines
 - Zero external dependencies
 
